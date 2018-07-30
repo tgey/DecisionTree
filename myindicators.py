@@ -2,8 +2,6 @@
 
 import talib
 import numpy as np
-from numpy import nan as Nan
-
 import pandas as pd
 import loadData as ld
 
@@ -21,7 +19,6 @@ class Indicators():
 
         ### Machine Learning ###
         self.tree = RandomForestRegressor(max_leaf_nodes=28)
-        self.selected = ['High', 'Open', 'Low', 'Volume']
         self.predicted = None
         self.dataset = None
 
