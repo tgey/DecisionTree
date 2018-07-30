@@ -1,7 +1,7 @@
 # bot-crypto
 
 ![version](https://img.shields.io/badge/version-1.2.0-yellowgreen.svg)
-
+[![CodeFactor](https://www.codefactor.io/repository/github/tgey/decisiontree/badge)](https://www.codefactor.io/repository/github/tgey/decisiontree)
 ![python](https://img.shields.io/badge/python-3.5.2-blue.svg)
 
 ## Introduction
