@@ -1,4 +1,4 @@
-# bot-crypto
+# DecisionTree Regression
 
 ![version](https://img.shields.io/badge/version-1.2.0-yellowgreen.svg)
 [![CodeFactor](https://www.codefactor.io/repository/github/tgey/decisiontree/badge)](https://www.codefactor.io/repository/github/tgey/decisiontree)
@@ -28,7 +28,7 @@ Windows, macOS and Linux
 ```bash
 git clone https://github.com/tgey/DecisionTree.git
 cd DecisionTree
-python3 main.py <pair> [frequency(in sec)]
+python3 main.py <pair> [frequency]
 ```
 
 ### Replace 'api_key' and 'secret_key' by yours in mybinance.py
