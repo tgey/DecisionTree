@@ -80,13 +80,6 @@ class Indicators():
                              np.array(self.data['Volume'], dtype='f8'),
                              timeperiod=14)
 
-    def get_mae(self, max_leaf_nodes, predictors_train, predictors_val, targ_train, targ_val):
-        model = DecisionTreeRegressor(max_leaf_nodes=max_leaf_nodes, random_state=0)
-        model.fit(predictors_train, targ_train)
-        preds_val = model.predict(predictors_val)
-        mae = mean_absolute_error(targ_val, preds_val)
-        return(mae)
-
     def init_tree_config(self):
         train_X, val_X, train_y, val_y = train_test_split(self.dataset, self.data['Close'][34:],random_state = 0)
         x = 100.0
