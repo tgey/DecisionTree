@@ -2,12 +2,12 @@
 
 import sys
 import os
-from docopt import docopt
 import time
-from myHelp import bothelp
-from loadData import LoadDatas
 import datetime
 import numpy as np
+from docopt import docopt
+from myHelp import bothelp
+from loadData import LoadDatas
 from mybinance import Binance
 from mycoin import Coin
 from charts import display_indica
