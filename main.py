@@ -15,6 +15,18 @@ from charts import display_indica
 coin = None
 
 def main(argv, interval=60):
+    """Main function of the DecisionTree program
+
+    Arguments:
+        argv {str} -- sys.argv
+
+    Keyword Arguments:
+        interval {int} -- Interval btw each refresh (default: {60})
+
+    Returns:
+        int -- end of the program
+    """
+
     global coin
     exchange = Binance()
     docopt(bothelp)

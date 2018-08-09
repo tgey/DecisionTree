@@ -6,6 +6,13 @@ from matplotlib import interactive
 import matplotlib.gridspec as gridspec
 
 def display_indica(coin):
+    """
+    Display indicators with Matplotlib
+
+    Arguments:
+        coin {object} -- Coin's data to display
+    """
+
     fig1 = plt.figure(1)
     spec1 = gridspec.GridSpec(ncols=2, nrows=2)
 

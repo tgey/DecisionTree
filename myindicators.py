@@ -12,6 +12,9 @@ from sklearn.model_selection import train_test_split
 
 
 class Indicators():
+    """Indicators's class
+    """
+
     def __init__(self, symbol, data):
 
         ### Historical data ###
@@ -81,6 +84,10 @@ class Indicators():
                              timeperiod=14)
 
     def init_tree_config(self):
+        """ Init DecisionTree regressor
+            Find the best MAE & fit the tree
+        """
+
         train_X, val_X, train_y, val_y = train_test_split(self.dataset, self.data['Close'][34:],random_state = 0)
         x = 100.0
         leaf = 0
@@ -97,6 +104,9 @@ class Indicators():
         self.tree.fit(train_X, train_y)
 
     def run(self):
+        """Run the class & fill plotting's dataset
+        """
+
         self.set_ma9()
         self.set_macd()
         self.set_bbands()
