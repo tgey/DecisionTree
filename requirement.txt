@@ -1,5 +1,5 @@
 matplotlib==3.1.1
-pandas==0.24.2
+pandas==1.1.2
 TA-Lib==0.4.17
 docopt==0.6.2
 urllib3==1.23
