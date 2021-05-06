@@ -3,6 +3,6 @@ pandas==0.24.2
 TA-Lib==0.4.17
 docopt==0.6.2
 urllib3==1.23
-python-binance==0.7.1
+python-binance==1.0.5
 scikit-learn==0.21.2
 numpy==1.16.4
